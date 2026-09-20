@@ -24,4 +24,4 @@ It’s a responsive weather application built with **HTML, CSS, and JavaScript**
  
 ## 🚀 Live Demo
 Play it here:  
-👉 [Tic Tac Toe on GitHub Pages](https://akv-working.github.io/PRODIGY_WD_05/)
+👉 [Weather App on GitHub Pages](https://akv-working.github.io/PRODIGY_WD_05/)
