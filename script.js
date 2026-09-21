@@ -4,7 +4,7 @@ const unitSelect = document.getElementById('unitSelect');
 const locationBtn = document.getElementById('useLocation');
 const resultContainer = document.getElementById('weatherResult');
 
-const API_KEY = "481aef573d9e9b2a2d1f42f8043c7d07";
+const API_KEY = "52e60b42077516d2387aefbe808001c2";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 // enter key
