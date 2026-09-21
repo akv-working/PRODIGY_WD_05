@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="weather-widget">
+    <h2>Weather App</h2>
+    
+    <form id="weatherForm" class="search-form">
+      <div class="input-row">
+        <input 
+          id="cityInput" 
+          type="text" 
+          placeholder="Enter city..." 
+          autocomplete="off"
+        >
+        <select id="unitSelect">
+          <option value="metric">°C</option>
+          <option value="imperial">°F</option>
+        </select>
+      </div>
+
+      <div class="btn-group">
+        <button type="submit" id="getWeather" class="btn primary">Get Weather</button>
+        <button type="button" id="useLocation" class="btn secondary">Location</button>
+      </div>
+    </form>
+
+    <div id="weatherResult" class="result-area"></div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>
